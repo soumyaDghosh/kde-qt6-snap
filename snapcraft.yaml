@@ -1,12 +1,16 @@
 name: kde-qt6-sdk
 base: core22
 version: 6.6.1
-summary: Qt Framework SDK
+summary: KDE fork Qt Framework SDK
 description: |
   Qt is a cross-platform application development framework widely used
   for developing software with graphical user interfaces (GUIs) and
   interactive functionality.
-
+architectures:
+  - build-on: amd64
+  - build-on: arm64
+  # - build-on: armhf
+  # - build-on: ppc64el
 grade: stable
 confinement: strict
 

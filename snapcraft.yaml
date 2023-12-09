@@ -32,7 +32,7 @@ package-repositories:
 parts:
   qt6:
     plugin: cmake
-    source: https://invent.kde.org/qt/qt.git
+    source: https://invent.kde.org/qt/qt5.git
     source-tag: $SNAPCRAFT_PROJECT_VERSION
     cmake-generator: Ninja
     cmake-parameters:

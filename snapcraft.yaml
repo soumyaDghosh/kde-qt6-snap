@@ -1,6 +1,6 @@
 name: kde-qt6-sdk
 base: core22
-version: 6.6.1
+version: 6.6.2
 summary: KDE fork Qt Framework SDK
 description: |
   Qt is a cross-platform application development framework widely used
